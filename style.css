@@ -256,6 +256,12 @@ nav{
     cursor: pointer;
     z-index: 10;
 }
+.next:hover{
+    color: orange;
+}
+.previous:hover{
+    color: orange;
+}
 .previous{
     position: absolute;
     left: 34%;
