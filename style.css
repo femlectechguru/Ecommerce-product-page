@@ -435,6 +435,17 @@ article{
     justify-content: center;
 
 }
+.attribution { 
+    font-size: 16px;
+    font-weight: 400;
+     text-align: center;
+     position: absolute;
+     bottom: 2rem;
+     }
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+ }
+
 .lightbox-container{
     position: relative;
 }
@@ -457,6 +468,8 @@ article{
 .lightbox .main-thumbnail{
     width: 400px;
 }
+
+
 @media screen and (max-width:400px) {
    /*  visibility */
     .hidden{
@@ -693,6 +706,17 @@ article{
 #next img,#previous img{
     width: 15px;
 }
+    .attribution { 
+        font-size: 12px;
+        font-weight: 400;
+         text-align: center;
+         position: absolute;
+         bottom: -10.5rem;
+         }
+    .attribution a { 
+        color: hsl(228, 45%, 44%);
+     }
+}
 @media screen and (max-width:348px) {
     .cart-wrp {
         position: absolute;
@@ -723,6 +747,7 @@ article{
         display: flex;
         box-shadow: 0px 4px 6px hsl(24, 100%, 92%);
         margin-bottom: 2rem;
+}
 }
 @media screen and (max-width:353px){
     .cart-wrp {
@@ -765,5 +790,4 @@ article{
 
 
 
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    
