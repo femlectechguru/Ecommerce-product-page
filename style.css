@@ -257,10 +257,12 @@ nav{
     z-index: 10;
 }
 .next:hover{
-    color: orange;
+    color: var(--Orange);
+    background-color: transparent;
 }
 .previous:hover{
-    color: orange;
+    color: var(--Orange);
+    background-color: transparent;
 }
 .previous{
     position: absolute;
